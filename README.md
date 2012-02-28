@@ -1,6 +1,6 @@
 # Xspf2m3u
 
-[![Build Status](https://secure.travis-ci.org/argent-smith/xspf2m3u.png)](http://travis-ci.org/argent-smith/xspf2m3u)
+[![Build Status](https://secure.travis-ci.org/argent-smith/xspf2m3u.png)](http://travis-ci.org/argent-smith/xspf2m3u) [![Dependency Status](https://gemnasium.com/argent-smith/xspf2m3u.png)](https://gemnasium.com/argent-smith/xspfm3u)
 
 __Author:__ Pavel Argentov <argentoff@gmail.com>
 
