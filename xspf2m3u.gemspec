@@ -26,6 +26,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency "autotest-notification"
   s.add_development_dependency "pry"
   s.add_development_dependency "gemcutter"
+  s.add_development_dependency "rdoc"
 
   s.add_runtime_dependency "thor"
   s.add_runtime_dependency "xspf"
