@@ -41,4 +41,13 @@ namespace :autotest do
   end
 end
 
+rdoc_title = "Xspf2m3u: the playlist converter"
+
+require 'rdoc/task'
+Rake::RDocTask.new do |rd|
+  rd.title = rdoc_title
+  rd.main  = "README.rdoc"
+  rd.rdoc_files.include("README.rdoc", "LICENSE.rdoc", "lib/**/*.rb")
+end
+
 task :default => [:spec, :features]

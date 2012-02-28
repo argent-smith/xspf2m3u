@@ -2,5 +2,9 @@
 .bundle
 Gemfile.lock
 pkg/*
-tmp
+tmp/*
 test/*
+doc/*
+html/*
+rdoc/*
+.yard/*

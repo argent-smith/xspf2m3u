@@ -7,14 +7,17 @@ Gem::Specification.new do |s|
   s.version     = Xspf2m3u::VERSION
   s.authors     = ["Pavel Argentov"]
   s.email       = ["argentoff@gmail.com"]
-  s.homepage    = ""
-  s.summary     = %q{Tiny simple little dumb xspf -> m3u converter}
-  s.description = %q{A CLI tool converting a.xspf to a.m3u}
+  s.homepage    = "https://github.com/argent-smith/xspf2m3u"
+  s.summary     = %q{Tiny simple little dumb xspf -> extended m3u converter}
+  s.description = %q{Usage: xspf2m3u -i one.xspf -o two.m3u}
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ["lib"]
+
+  s.extra_rdoc_files = %w{README.rdoc LICENSE.rdoc}
+  s.rdoc_options     = %W{--title "Xspf2m3u: the playlist converter" --main README.rdoc --line-numbers}
 
   s.add_development_dependency "rake"
   s.add_development_dependency "bddgen"
@@ -22,6 +25,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency "ZenTest"
   s.add_development_dependency "autotest-notification"
   s.add_development_dependency "pry"
+  s.add_development_dependency "gemcutter"
 
   s.add_runtime_dependency "thor"
   s.add_runtime_dependency "xspf"
