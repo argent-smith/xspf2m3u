@@ -12,7 +12,7 @@ This CLI program converts a playlist in XSPF format into Extended M3U playlist.
 
 == JRuby notice
 
-Since this gem depends on no-jruby-compatimle "ruby-xslt", it would not
+Since this gem depends on no-jruby-compatible "ruby-xslt", it would not
 build/install/work on JRuby.
 
 == Feedback
