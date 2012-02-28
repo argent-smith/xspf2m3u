@@ -12,6 +12,16 @@ __Author:__ Pavel Argentov <argentoff@gmail.com>
 
 This CLI program converts a playlist in XSPF format into Extended M3U playlist.
 
+## JRuby notice
+
+Since this gem depends on no-jruby-compatimle "ruby-xslt", it would not
+build/install/work on JRuby.
+
+## Feedback
+
+Feel free to fork/patch/issue this thing. If you are on GitHub, you already
+know how to do this :) 
+
 ## Copyright
 
 Copyright (c) 2012 Pavel Argentov. See LICENSE for details.
