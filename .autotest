@@ -1,5 +1,5 @@
 Autotest.add_hook(:initialize) {|at|
-  %w{.git .svn .hg .DS_Store .rvmrc ._* vendor tmp log doc var}.each do |exception|
+  %w{.git .svn .hg .DS_Store .rvmrc ._* vendor test tmp log doc var}.each do |exception|
     at.add_exception(exception)
   end
   at.clear_mappings            # take out the default (test/test*rb)
