@@ -1,0 +1,13 @@
+Autotest.add_hook(:initialize) {|at|
+  %w{.git .svn .hg .DS_Store .rvmrc ._* vendor tmp log doc var}.each do |exception|
+    at.add_exception(exception)
+  end
+  at.clear_mappings            # take out the default (test/test*rb)
+  at.add_mapping(%r{^(lib)|(util)/.*\.rb$}) {|f, _|
+    Dir['spec/**/*.rb']
+  }
+  at.add_mapping(%r{^spec/.*\.rb$}) {|filename, _|
+    filename
+  }
+  nil
+}

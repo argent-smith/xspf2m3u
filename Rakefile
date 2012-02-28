@@ -1,5 +1,6 @@
+require "rubygems"
+require "bundler/setup"
 require "bundler/gem_tasks"
-
 
 require 'cucumber/rake/task'
 Cucumber::Rake::Task.new(:features) do |features|
@@ -26,3 +27,18 @@ namespace :spec do
   end
 end
 
+desc "Default autotest task"
+task :autotest => "autotest:spec"
+
+namespace :autotest do
+  desc "Start Autotest CI"
+  task :spec => [".autotest", ".rspec"] do
+    sh "bundle exec autotest"
+  end
+  desc "autotest + features"
+  task :features => "cucumber.yml" do
+    sh "(bundle exec env AUTOFEATURE=true autotest)"
+  end
+end
+
+task :default => [:spec, :features]

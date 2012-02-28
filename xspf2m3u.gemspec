@@ -20,6 +20,9 @@ Gem::Specification.new do |s|
 
   s.add_development_dependency "rake"
   s.add_development_dependency "bddgen"
+  s.add_development_dependency "aruba"
+  s.add_development_dependency "ZenTest"
+  s.add_development_dependency "autotest-notification"
   s.add_development_dependency "pry"
 
   s.add_runtime_dependency "thor"
