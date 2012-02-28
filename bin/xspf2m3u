@@ -1,0 +1,3 @@
+#!/usr/bin/env ruby
+
+require "xspf2m3u"
