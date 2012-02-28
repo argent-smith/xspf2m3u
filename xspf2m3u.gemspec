@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
   s.extra_rdoc_files = %w{README.rdoc LICENSE.rdoc}
-  s.rdoc_options     = %W{--title "Xspf2m3u: the playlist converter" --main README.rdoc --line-numbers}
+  s.rdoc_options     = %W{--main README.rdoc --line-numbers}
 
   s.add_development_dependency "rake"
   s.add_development_dependency "bddgen"
