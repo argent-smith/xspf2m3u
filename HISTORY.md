@@ -1,3 +1,5 @@
+# Release History
+
 * **v0.0.1** [2012-02-28]: Initial release; yanked.
 
 * **v0.0.2** [2012-02-28]: Fixed some rdoc issues (headers).
