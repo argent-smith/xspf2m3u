@@ -47,7 +47,7 @@ require 'rdoc/task'
 Rake::RDocTask.new do |rd|
   rd.title = rdoc_title
   rd.main  = "README.rdoc"
-  rd.rdoc_files.include("README.rdoc", "LICENSE.rdoc", "lib/**/*.rb")
+  rd.rdoc_files.include %w{README.rdoc LICENSE.rdoc HISTORY.md lib/**/*.rb}
 end
 
 task :default => [:spec, :features]

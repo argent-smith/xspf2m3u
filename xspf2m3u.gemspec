@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ["lib"]
 
-  s.extra_rdoc_files = %w{README.rdoc LICENSE.rdoc}
+  s.extra_rdoc_files = %w{README.rdoc LICENSE.rdoc HISTORY.md}
   s.rdoc_options     = %W{--main README.rdoc --line-numbers}
 
   s.add_development_dependency "rake"
