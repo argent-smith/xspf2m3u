@@ -50,4 +50,9 @@ Rake::RDocTask.new do |rd|
   rd.rdoc_files.include %w{README.rdoc LICENSE.rdoc HISTORY.md lib/**/*.rb}
 end
 
+desc "Clean up"
+task :clean  do
+  sh "git clean -fd"
+end
+
 task :default => [:spec, :features]
