@@ -31,3 +31,7 @@ Copyright (c) 2012 Pavel Argentov. See LICENSE for details.
 ## LICENSE
 
 MIT, see LICENSE.md or LICENSE.rdoc in the gem's package.
+
+## Thanks to
+
+[Evrone labs](https://github.com/evrone)
