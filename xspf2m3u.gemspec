@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.version     = Xspf2m3u::VERSION
   s.authors     = ["Pavel Argentov"]
   s.email       = ["argentoff@gmail.com"]
-  s.homepage    = "https://github.com/argent-smith/xspf2m3u"
+  s.homepage    = "https://github.com/evrone/xspf2m3u"
   s.summary     = %q{Tiny simple little dumb xspf -> extended m3u converter}
   s.description = %q{Usage: xspf2m3u -i one.xspf -o two.m3u}
 
