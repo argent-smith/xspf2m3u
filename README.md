@@ -34,4 +34,4 @@ MIT, see LICENSE.md or LICENSE.rdoc in the gem's package.
 
 ## Thanks to
 
-[Evrone lab](https://github.com/evrone)
+[Evrone lab](http://evrone.com/)
